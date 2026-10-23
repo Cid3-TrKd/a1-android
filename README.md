@@ -28,7 +28,7 @@ Requires Android 6.0 (API 23) or newer. Ghostty A1 ships an **arm64-v8a** native
 library, so it needs a 64-bit ARM device — i.e. essentially every phone since
 ~2016, but not an x86 emulator.
 
-Sizes: Ghostty A1 is ~650 KB, OpenCode A1 is ~66 KB.
+Sizes: Ghostty A1 is ~650 KB, OpenCode A1 is ~72 KB.
 
 ## What each one talks to — and what it does not
 
