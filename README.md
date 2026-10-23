@@ -13,14 +13,15 @@ runs on the laptop. The third is a cat.
 
 Download all three from the [Releases](../../releases) page.
 
-Latest builds: **OpenCode A1 1.2** ([v1.2](../../releases/tag/v1.2)), **Ghostty A1 1.1** ([v1.1](../../releases/tag/v1.1)) and **Run-Karl-Run 1.0** ([runkarlrun-v1.0](../../releases/tag/runkarlrun-v1.0)). 1.2 fixes a message sent from the composer being typed into the terminal; see [MANIFEST-v1.2.md](MANIFEST-v1.2.md).
+Latest builds: **OpenCode A1 1.2** ([v1.2](../../releases/tag/v1.2)), **Ghostty A1 1.1** ([v1.1](../../releases/tag/v1.1)) and **Run-Karl-Run 1.2** ([runkarlrun-v1.2](../../releases/tag/runkarlrun-v1.2)). OpenCode A1 1.2 fixes a message sent from the composer being typed into the terminal (see [MANIFEST-v1.2.md](MANIFEST-v1.2.md)); Run-Karl-Run 1.2 makes the cat actually run at full load (see [MANIFEST-runkarlrun-1.2.md](MANIFEST-runkarlrun-1.2.md)).
 
 ## Install
 
 Ghostty A1 and OpenCode A1 are **debug-signed** APKs (see
 [MANIFEST.md](MANIFEST.md) for hashes and the signing certificate).
 Run-Karl-Run is signed with a **release key** and has its own manifest,
-[MANIFEST-runkarlrun-1.0.md](MANIFEST-runkarlrun-1.0.md). That means:
+[MANIFEST-runkarlrun-1.2.md](MANIFEST-runkarlrun-1.2.md) (1.0 is still published as
+[MANIFEST-runkarlrun-1.0.md](MANIFEST-runkarlrun-1.0.md)). That means:
 
 - Android will ask you to allow installs from the app you are using to open the
   file. That is the normal sideload prompt, not a warning about this app.
@@ -34,7 +35,7 @@ Requires Android 6.0 (API 23) or newer for the two A1 apps, and **Android 8.0
 it needs a 64-bit ARM device — i.e. essentially every phone since ~2016, but not
 an x86 emulator. Run-Karl-Run has no native libraries.
 
-Sizes: Ghostty A1 is ~650 KB, OpenCode A1 is ~68 KB, Run-Karl-Run is ~375 KB.
+Sizes: Ghostty A1 is ~650 KB, OpenCode A1 is ~68 KB, Run-Karl-Run is ~384 KB.
 
 ## What each one talks to — and what it does not
 
