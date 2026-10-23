@@ -13,6 +13,8 @@ runs on the laptop. The third is a cat.
 
 Download all three from the [Releases](../../releases) page.
 
+Latest builds: **OpenCode A1 1.2** ([v1.2](../../releases/tag/v1.2)), **Ghostty A1 1.1** ([v1.1](../../releases/tag/v1.1)) and **Run-Karl-Run 1.0** ([runkarlrun-v1.0](../../releases/tag/runkarlrun-v1.0)). 1.2 fixes a message sent from the composer being typed into the terminal; see [MANIFEST-v1.2.md](MANIFEST-v1.2.md).
+
 ## Install
 
 Ghostty A1 and OpenCode A1 are **debug-signed** APKs (see
@@ -32,7 +34,7 @@ Requires Android 6.0 (API 23) or newer for the two A1 apps, and **Android 8.0
 it needs a 64-bit ARM device — i.e. essentially every phone since ~2016, but not
 an x86 emulator. Run-Karl-Run has no native libraries.
 
-Sizes: Ghostty A1 is ~650 KB, OpenCode A1 is ~72 KB, Run-Karl-Run is ~375 KB.
+Sizes: Ghostty A1 is ~650 KB, OpenCode A1 is ~68 KB, Run-Karl-Run is ~375 KB.
 
 ## What each one talks to — and what it does not
 
